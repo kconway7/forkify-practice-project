@@ -4,9 +4,7 @@
   "description": "Practice Recipe Application",
   "scripts": {
     "start": "parcel index.html",
-    "build": "npm run parcel && npm run sass",
-    "sass": "sass",
-    "parcel": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Keddy Conway",
   "license": "ISC",
